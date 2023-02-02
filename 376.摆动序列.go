@@ -6,8 +6,23 @@
 
 // @lc code=start
 
-// Way 1: [0,2] + [2:]
+// second way : [0, n-1]
 func wiggleMaxLength(nums []int) int {
+	n := len(nums)
+	prediff, currdiff := 0, 0
+	ans := 1
+	for i := 0; i < n-1; i++ {
+		currdiff = nums[i+1] - nums[i]
+		if currdiff > 0 && prediff <= 0 || currdiff < 0 && prediff >= 0 {
+			ans++
+			prediff = currdiff
+		}
+	}
+	return ans
+}
+
+// Way 1: [0,2] + [2:]
+func wiggleMaxLength_1(nums []int) int {
 	n := len(nums)
 	if n < 2 {
 		return n

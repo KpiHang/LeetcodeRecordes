@@ -16,7 +16,7 @@ git status
 echo "\033[32m——-----请输入提交信息：🙃——-----\033[0m"
 read line commitInfo
 
-git commit -m $commitInfo
+git commit -m "$commitInfo"
 echo "\033[32m——-----git 提交完毕🙃—-----\033[0m"
 
 # 5、推送代码
