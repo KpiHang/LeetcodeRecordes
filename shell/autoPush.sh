@@ -19,6 +19,10 @@ read commitInfo
 git commit -m "$commitInfo"
 echo "\033[32m——-----git 提交完毕🙃—-----\033[0m"
 
+# 挂代理，加速；
+export http_proxy=http://127.0.0.1:7890
+export https_proxy=$http_proxy
+
 # 5、推送代码
 git push -u origin $currentBranch
 echo "\033[32m——-----git 推送完毕🙃—-----\033[0m"
