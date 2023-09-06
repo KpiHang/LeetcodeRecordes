@@ -21,7 +21,7 @@
 |  题目   |难度| 题解  | 备注 |
 |  ----  | ---- |----  | ----|
 | [167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | 中等 | [Golang](./leetcode_recordes/167.两数之和-ii-输入有序数组.go) |      |
-| [15. 三数之和](https://leetcode.cn/problems/3sum/description/) | 中等 | [Golang](./leetcode_recordes/15.三数之和.go)| 两个优化 |
+| [15. 三数之和](https://leetcode.cn/problems/3sum/description/) | 中等 | [Golang](./leetcode_recordes/15.三数之和.go)| 两个优化、先167 |
 
 
 
