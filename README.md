@@ -17,13 +17,18 @@
 ### 相向双指针1
 
 **left++, right--**
+- 作用在有序列表，一左一右，相向而行；
+- 因为有序，大小确定信息。
+
+拓展，三数之和：
+- fixed + min1 + min2 > target; break;
+- fixed + max1 + max2 < target; 下一个fixed congtinue;
 
 |  题目   |难度| 题解  | 备注 |
 |  ----  | ---- |----  | ----|
 | [167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | 中等 | [Golang](./leetcode_recordes/167.两数之和-ii-输入有序数组.go) |      |
 | [15. 三数之和](https://leetcode.cn/problems/3sum/description/) | 中等 | [Golang](./leetcode_recordes/15.三数之和.go)| 两个优化、先167 |
 |[16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/description/)|中等|[Golang](./leetcode_recordes/16.最接近的三数之和.go)| |
-
-
+|[18. 四数之和](https://leetcode.cn/problems/4sum/)|中等|[Golang](./leetcode_recordes/18.四数之和.go)| |
 
 

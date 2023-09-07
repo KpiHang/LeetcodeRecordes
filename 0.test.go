@@ -1,21 +1,10 @@
 package main
 
-import (
-	"fmt"
-	"sort"
-)
+import "fmt"
 
 func main() {
-	slice1 := []int{3, 1, 2}
-	slice2 := []string{"c", "a", "b"}
-
-	sort.Slice(slice2, func(i, j int) bool {
-		return slice1[i] < slice1[j]
-	})
-	sort.Slice(slice1, func(i, j int) bool {
-		return slice1[i] < slice1[j]
-	})
-
-	fmt.Println(slice1)
-	fmt.Println(slice2)
+	nums := []int{3, 34, 5, 5, 6, 7, 7}
+	for i, x := range nums[1:5] {
+		fmt.Println(i, x)
+	}
 }

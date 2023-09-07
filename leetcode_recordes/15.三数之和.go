@@ -36,7 +36,7 @@ func threeSum(nums []int) (ans [][]int) {
 				k--
 			} else if s < 0 {
 				j++
-			} else {
+			} else { // !!! 只有和target相等的时候，才需要左右跳过
 				ans = append(ans, []int{x, nums[j], nums[k]})
 				for j++; j < k && nums[j] == nums[j-1]; j++ {
 				} // 跳过左侧重复数字
