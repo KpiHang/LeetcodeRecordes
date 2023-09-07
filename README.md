@@ -5,7 +5,7 @@
 代码随想录：https://programmercarl.com/
 
 灵茶山艾府，灵神
-- 20230906
+- Start: 20230906
 - 课程表：https://github.com/EndlessCheng/codeforces-go/tree/master/leetcode
 - 教学视频：https://www.bilibili.com/video/BV1bP411c7oJ/
 
@@ -22,6 +22,7 @@
 |  ----  | ---- |----  | ----|
 | [167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | 中等 | [Golang](./leetcode_recordes/167.两数之和-ii-输入有序数组.go) |      |
 | [15. 三数之和](https://leetcode.cn/problems/3sum/description/) | 中等 | [Golang](./leetcode_recordes/15.三数之和.go)| 两个优化、先167 |
+|[16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/description/)|中等|[Golang](./leetcode_recordes/16.最接近的三数之和.go)| |
 
 
 
