@@ -7,7 +7,7 @@
 灵茶山艾府，灵神
 - Start: 20230906
 - 课程表：https://github.com/EndlessCheng/codeforces-go/tree/master/leetcode
-- 教学视频：https://www.bilibili.com/video/BV1bP411c7oJ/
+- 教学视频：https://www.bilibili.com/video/BV1Qg411q7ia/
 
 ## 题目归类
 > 跟着卡哥（代码随想录，程序员卡尔）刷完一遍，一段时间没刷遗忘了不少；但在这期间几乎算裸考的，蓝桥杯省一和国三。考试前一个月一道题也没碰过，抱着试一试的心理，结果还不错。坚持刷题很有帮助！
@@ -31,4 +31,13 @@
 |[16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/description/)|中等|[Golang](./leetcode_recordes/16.最接近的三数之和.go)| |
 |[18. 四数之和](https://leetcode.cn/problems/4sum/)|中等|[Golang](./leetcode_recordes/18.四数之和.go)| |
 
+
+### 相向双指针2
+
+**left++, right--**
+- 列表无序
+
+|  题目   |难度| 题解  | 备注 |
+|  ----  | ---- |----  | ----|
+| [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/) |中等 |[Golang](./leetcode_recordes/11.盛最多水的容器.go)| |
 
