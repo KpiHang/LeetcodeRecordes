@@ -35,9 +35,10 @@
 ### 相向双指针2
 
 **left++, right--**
-- 列表无序
+- 列表无序，也不能排序；
 
 |  题目   |难度| 题解  | 备注 |
 |  ----  | ---- |----  | ----|
 | [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/) |中等 |[Golang](./leetcode_recordes/11.盛最多水的容器.go)| |
+|[42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/description/) |困难|[Golang](./leetcode_recordes/42.接雨水.go)|他法：前后缀分解|
 
