@@ -42,3 +42,11 @@
 | [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/) |中等 |[Golang](./leetcode_recordes/11.盛最多水的容器.go)| |
 |[42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/description/) |困难|[Golang](./leetcode_recordes/42.接雨水.go)|他法：前后缀分解|
 
+
+### 同向双指针-滑动窗口
+知识点：https://www.yuque.com/cnbetter/fsa89u/egm0agwrpf00qqqo?singleDoc#
+
+|  题目   |难度| 题解  | 备注 |
+|  ----  | ---- |----  | ----|
+| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) |中等 |[Python](./leetcode_recordes/3.无重复字符的最长子串.py)| 寻找最长 |
+|[209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/) |中等|[Golang](./leetcode_recordes/209.长度最小的子数组.go)| 寻找最短 |
