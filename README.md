@@ -50,7 +50,10 @@
 |  ----  | ---- |----  | ----|
 | [3.无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) |中等 |[Python](./leetcode_recordes/3.无重复字符的最长子串.py)| 寻找最长 |
 |[209.长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/) |中等|[Golang](./leetcode_recordes/209.长度最小的子数组.go)| 寻找最短 |
-|[1004.最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii)|中等|[Python](./leetcode_recordes/1004.最大连续1的个数 III.py)|UseM 1AC|
+|[1004.最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii)|中等| [Python](./leetcode_recordes/1004.最大连续-1-的个数-iii.py) |UseM 1AC|
+
+
+
 
 ## Todo
 - ✅ ~~通过题号，生成markdown表格格式，eg：`|[209.长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/) |中等|[Golang](.leetcode_recordes/209.长度最小的子数组.go)| |`~~

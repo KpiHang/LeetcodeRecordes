@@ -54,9 +54,13 @@ def printRow(infos, solutions):
     else:
         _3 = "困难"
     
+    id = infos["frontendId"]
+    titleCN = completed_questions_dict[id] # 中文名内有空格，数字，要按照原来的file名；
+    id_titleCN = id + "." + titleCN
+
     solutions_md = []
     for s in solutions:
-        completed_file = "./leetcode_recordes/" + infos["frontendId"] + "." + infos["titleCN"] + "." + s
+        completed_file = "./leetcode_recordes/" + id_titleCN + "." + s
         if s == "go":
             language = "Golang"
         elif s == "py":
@@ -69,6 +73,8 @@ def printRow(infos, solutions):
     row = [_1, _2, _3, _4]
     print("|[{}]({})|{}|{}| |".format(row[0], row[1], row[2], row[3]))
 
+
+completed_questions_dict = {}
 if __name__ == "__main__":
     """
     ids: 题号列表；
@@ -81,7 +87,6 @@ if __name__ == "__main__":
         sys.exit("Error: 请输入题号!")
 
     completed_questions = os.listdir("../leetcode_recordes/")
-    completed_questions_dict = {}
     for title in completed_questions:
         tmp_ls = title.split(".")
 
