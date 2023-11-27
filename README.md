@@ -52,7 +52,7 @@
 |[209.长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/) |中等|[Golang](./leetcode_recordes/209.长度最小的子数组.go)| 寻找最短 |
 |[1004.最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii)|中等| [Python](./leetcode_recordes/1004.最大连续-1-的个数-iii.py) |UseM 1AC|
 |[1234.替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string)|中等|[Python](./leetcode_recordes/1234.替换子串得到平衡字符串.py)| 寻找最短, 进阶|
-
+|[1658.将 x 减到 0 的最小操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero)|中等|[Golang](./leetcode_recordes/1658.将-x-减到-0-的最小操作数.go), [Python](./leetcode_recordes/1658.将-x-减到-0-的最小操作数.py)| 问题转化 |
 
 
 ## Todo
