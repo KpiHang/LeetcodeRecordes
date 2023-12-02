@@ -54,6 +54,7 @@
 |[1234.替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string)|中等|[Python](./leetcode_recordes/1234.替换子串得到平衡字符串.py)| 寻找最短, 进阶|
 |[1658.将 x 减到 0 的最小操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero)|中等|[Golang](./leetcode_recordes/1658.将-x-减到-0-的最小操作数.go), [Python](./leetcode_recordes/1658.将-x-减到-0-的最小操作数.py)| 问题转化 |
 |[395.至少有 K 个重复字符的最长子串](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters)|中等|[Python](./leetcode_recordes/395.至少有-k-个重复字符的最长子串.py)| 滑动窗口核心 |
+|[424.替换后的最长重复字符](https://leetcode.cn/problems/longest-repeating-character-replacement)|中等|[Python](./leetcode_recordes/424.替换后的最长重复字符.py)|变种使用M 1AC|
 
 ## Todo
 - ✅ ~~通过题号，生成markdown表格格式，eg：`|[209.长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/) |中等|[Golang](.leetcode_recordes/209.长度最小的子数组.go)| |`~~
