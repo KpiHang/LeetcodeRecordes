@@ -57,6 +57,8 @@
 |[424.替换后的最长重复字符](https://leetcode.cn/problems/longest-repeating-character-replacement)|中等|[Python](./leetcode_recordes/424.替换后的最长重复字符.py)|变种使用M 1AC|
 
 ## Todo
+- 基于**大模型**的刷题助手，[详情](./Apps/LC_Assistant/)。
+
 - ✅ ~~通过题号，生成markdown表格格式，eg：`|[209.长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/) |中等|[Golang](.leetcode_recordes/209.长度最小的子数组.go)| |`~~
     - 使用方式: `python id2row.py 3 11`
         ```
